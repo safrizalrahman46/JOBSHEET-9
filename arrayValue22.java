@@ -6,12 +6,21 @@ public class arrayValue22 {
 
         int[] finalScore = new int[10];
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < finalScore.length; i++) {
             System.out.print("Enter the final score" + i + " : ");
             finalScore[i] = xn22.nextInt();
 
-                }for (int i = 0; i < 10; i++) {
-                System.out.println("Final Score "+ i +" is A "+finalScore[i]);
+            //MODIFIKASI   
+                }for (int i = 0; i < finalScore.length; i++) {
+                    if (finalScore[i] > 70) {
+                        System.out.println("Student " + i + "PASSED AWAY!");
+                    }else {
+                        System.out.println("Student are= " + i + "FAILED AWAY!");
+                    }
+                
         }
+        //         }for (int i = 0; i < 10; i++) {
+        //         System.out.println("Final Score "+ i +" is A "+finalScore[i]);
+        // }
     }
 }
