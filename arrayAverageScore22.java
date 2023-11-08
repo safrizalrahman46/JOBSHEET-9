@@ -9,14 +9,14 @@ public class arrayAverageScore22 {
         double average;
 
         for (int i = 0; i < score.length; i++) {
-            System.out.print("masukan nilai mahasiswa ke-"+i+" : ");
+            System.out.print("Enter Student Score-"+i+" : ");
             score[i] = xc22.nextInt();
-
+            
             } for (int i = 0; i < score.length; i++) {
             total+=score[i];
             }
             average=total/score.length;
-            System.out.println("rata-rata nilai = "+average);
+            System.out.println("The Average Is= "+average);
             }
 
     }
